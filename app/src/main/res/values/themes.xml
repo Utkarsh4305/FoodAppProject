@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication." parent="Theme.MyApplication">
+
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.MyApplication.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+    
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
+  
+</resources>
